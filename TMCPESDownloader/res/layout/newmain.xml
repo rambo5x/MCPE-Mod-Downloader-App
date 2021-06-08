@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_margin="5dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Modscripts List"
+		android:textSize="45px"/>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<Button
+				android:id="@+id/AM"
+				android:onClick="ClickAM"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Agents Mod"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/HM"
+				android:onClick="ClickHM"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Herobrine Mod"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/PM"
+				android:onClick="ClickPM"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Poop Mod"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/RJ"
+				android:onClick="ClickRJ"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Random Jockeys Mod"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/ET"
+				android:onClick="ClickET"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Enchanting Mod"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/MS"
+				android:onClick="ClickMS"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Mo Swords Mod"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/EM"
+				android:onClick="ClickEM"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Edible Minerals Mod"
+				android:layout_marginBottom="10dp"/>
+
+			<Button
+				android:id="@+id/US"
+				android:onClick="ClickUS"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Useful Commands Mod"
+				android:layout_marginBottom="10dp"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

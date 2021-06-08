@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This mod adds Edible Minerals into mcpe which you can obtain when breaking ore and other blocks randomly or there mineral thats goes with the ore.Pictures will be added soon for more info."
+		android:textSize="25px"
+		android:textStyle="bold" />		
+
+	<Button
+		android:id="@+id/EMD"
+		android:onClick="ClickEMD"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Download"
+		android:layout_marginBottom="10dp"/>
+	
+    
+</LinearLayout>

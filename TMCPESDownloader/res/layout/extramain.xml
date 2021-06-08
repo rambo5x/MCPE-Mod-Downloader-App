@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_margin="5dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Seed List"
+		android:textSize="45px"/>
+
+	<Button
+		android:id="@+id/JA"
+		android:onClick="ClickJA"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="johnny appleseed"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:id="@+id/WZ"
+		android:onClick="ClickWZ"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="wowzers"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:id="@+id/V"
+		android:onClick="ClickV"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Villagers"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:id="@+id/CA"
+		android:onClick="ClickCA"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="caca"
+		android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+

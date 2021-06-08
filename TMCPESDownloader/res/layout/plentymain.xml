@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This mod adds a few enchantments to mcpe which are fireaspect and instakill including xp to buy the enchants.You can learn all how to do this by typing the command /enchant help.Pictures will be added soon for more info."
+		android:textSize="25px"
+		android:textStyle="bold"/>
+
+	<Button
+		android:id="@+id/ED"
+		android:onClick="ClickED"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Download"
+		android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+

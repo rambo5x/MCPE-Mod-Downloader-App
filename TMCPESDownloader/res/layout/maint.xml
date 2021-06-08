@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This mod adds Poop to mcpe for mobs which the poop drop will be coca beans and it can get a little laggy but u can always disable it in Block Launcher.Pictures will be added soon for more info."
+		android:textSize="25px"
+		android:textStyle="bold" />		
+
+	<Button
+		android:id="@+id/PD"
+		android:onClick="ClickPD"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Download"
+		android:layout_marginBottom="10dp"/>
+	
+    
+</LinearLayout>

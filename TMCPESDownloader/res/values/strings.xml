@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">TMCPES Team Downloader</string>
+	<string name="action_search"></string>
+	<string name="action_overflow"></string>
+	<string name="username"></string>
+	<string name="password"></string>	 
+	<string name="about_title">About</string>
+
+</resources>

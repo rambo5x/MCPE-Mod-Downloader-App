@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Greetings to all who are viewing my app, I created for the TMCPES Modding Team and all the features are listed below:\nThis App features of ModscriptsMapsTexturepacks and 0.9.5 Seeds Category sections.\nYou can download our Modscripts by tapping the Modscripts button then choose the modscript you want to download by tapping it,then you just read the description of the mod and download it if you like it.\nI will be adding pictures soon for more info on the specific Modscript.\nIf you want to download Texture Packs just Tap the Texture Packs button and choose the Texture pack you like then read its description see its picture and then download.\nIf you want to download Maps then just Tap the Maps button choose your map by scrollig then tapping the button of the map reading its description and checking out its picture then download if you liked it.\nIf you want to check out some cool MCPE 0.9.5 Seeds then just Tap the Seeds button and scroll for your seed like then tap the button of the seed you like read its description and checking out the picture then download it.\nAnd that is about it for this Apps features of knowing what to do and whats it about.\nAll this based off of my teams work,meaning we found the seeds and reated the maps and modscripts including the texture packs.\nThank you for downloading this app and give me a rating at the google playstore.\nP.S This is my first App so give me credit because it took time to create it.\nIf you would like to contact me aka the developer of the app then just send me a email here at my gmail:michaelm12x@gmail.com\nAnd once again Thank you for downloading this App and enjoy!");	
+		android:textSize="25px" 
+	    android:textStyle="bold" />	
+
+	
+</LinearLayout>
+

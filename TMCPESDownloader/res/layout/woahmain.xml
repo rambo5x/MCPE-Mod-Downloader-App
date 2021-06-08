@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This Mod adds several useful commands why playing in game to mcpe.You can /day, /night,/gamemode creative or survival, and /set time And least but not least you can give you can give yourself items with /give.Pictures will be added for more info."
+		android:textSize="25px"
+		android:textStyle="bold" />		
+
+	<Button
+		android:id="@+id/UD"
+		android:onClick="ClickUD"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Download"
+		android:layout_marginBottom="10dp"/>
+	
+    
+</LinearLayout>

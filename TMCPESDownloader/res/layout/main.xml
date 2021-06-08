@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_margin="5dp">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="The Minecraft Pocket Edition Scripters"
+		android:textSize="50px"
+		android:textStyle="bold"
+		android:gravity="center_vertical"/>
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+	<Button
+		android:id="@+id/myButton"
+		android:onClick="ClickMe"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Modscripts"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:id="@+id/TM"
+		android:onClick="ClickTM"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Maps"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:onClick="ClickTP"
+		android:id="@+id/TP"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Texture Packs"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:onClick="ClickSD"
+		android:id="@+id/SD"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Seeds"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:onClick="ClickEX"
+		android:id="@+id/EX"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Exit"
+		android:layout_marginBottom="10dp"/>
+
+		</LinearLayout>
+	
+  </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This seed has a village and a swamp near it.And when you spawn in this world first start walking or flying to the plains and explore there and you will find the village." 
+	    android:textSize="25px" 
+	    android:textStyle="bold" />	
+	
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/caca" />
+    
+</LinearLayout>

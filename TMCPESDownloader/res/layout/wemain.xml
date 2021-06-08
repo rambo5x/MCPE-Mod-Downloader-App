@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This Mod adds Agents and villains and some missions to mcpe including new weapons.You can be a agent and summon the agent captain and agent officers along with the villain boss.All you need to do for the commands in game do /agent help.Pictures will be added for more info."
+		android:textSize="20px"
+		android:textStyle="bold"/>
+
+	<Button
+		android:id="@+id/AV"
+		android:onClick="ClickAV"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Download"
+		android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+

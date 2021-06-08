@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This mod adds 5 new swords to mcpe including fire and earth power in them and more! Here are the item ids for them to get hem faster and enjoy.470,471,472,369,377. You can use too many items mod or anything else you can obtain the items faster.Pictures coming soon for more info."
+		android:textSize="25px"
+		android:textStyle="bold" />		
+
+	<Button
+		android:id="@+id/MD"
+		android:onClick="ClickMD"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Download"
+		android:layout_marginBottom="10dp"/>
+	
+	
+</LinearLayout>

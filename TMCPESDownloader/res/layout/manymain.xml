@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This seed when you spawn into a desert with 2 desert villages.Just walk to your right to find the first one then head right again forward.Pictures Will be added soon for more info." 
+	    android:textSize="25px" 
+	    android:textStyle="bold" />
+	
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/wowzers" />
+	
+    
+</LinearLayout>
